@@ -36,15 +36,46 @@ class AppTheme {
   static ThemeData get light => ThemeData(
     useMaterial3: true,
     scaffoldBackgroundColor: AppColors.ivory,
-    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.sage, surface: AppColors.ivory),
+    colorScheme: ColorScheme.fromSeed(
+      seedColor: AppColors.sage,
+      surface: AppColors.ivory,
+    ),
     textTheme: const TextTheme(
-      displaySmall: TextStyle(fontSize: 33, height: 1.15, fontWeight: FontWeight.w600, color: AppColors.ink, letterSpacing: -1.3),
-      headlineMedium: TextStyle(fontSize: 27, height: 1.2, fontWeight: FontWeight.w600, color: AppColors.ink, letterSpacing: -.7),
-      titleLarge: TextStyle(fontSize: 20, height: 1.25, fontWeight: FontWeight.w600, color: AppColors.ink, letterSpacing: -.3),
-      titleMedium: TextStyle(fontSize: 16, height: 1.3, fontWeight: FontWeight.w600, color: AppColors.ink),
+      displaySmall: TextStyle(
+        fontSize: 33,
+        height: 1.15,
+        fontWeight: FontWeight.w600,
+        color: AppColors.ink,
+        letterSpacing: -1.3,
+      ),
+      headlineMedium: TextStyle(
+        fontSize: 27,
+        height: 1.2,
+        fontWeight: FontWeight.w600,
+        color: AppColors.ink,
+        letterSpacing: -.7,
+      ),
+      titleLarge: TextStyle(
+        fontSize: 20,
+        height: 1.25,
+        fontWeight: FontWeight.w600,
+        color: AppColors.ink,
+        letterSpacing: -.3,
+      ),
+      titleMedium: TextStyle(
+        fontSize: 16,
+        height: 1.3,
+        fontWeight: FontWeight.w600,
+        color: AppColors.ink,
+      ),
       bodyMedium: TextStyle(fontSize: 15, height: 1.5, color: AppColors.ink),
       bodySmall: TextStyle(fontSize: 13, height: 1.45, color: AppColors.muted),
-      labelSmall: TextStyle(fontSize: 12, height: 1.3, fontWeight: FontWeight.w600, color: AppColors.muted),
+      labelSmall: TextStyle(
+        fontSize: 12,
+        height: 1.3,
+        fontWeight: FontWeight.w600,
+        color: AppColors.muted,
+      ),
     ),
     splashFactory: NoSplash.splashFactory,
   );
