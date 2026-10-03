@@ -42,7 +42,7 @@ class ThemeDetail extends StatelessWidget {
         const SizedBox(height: 34), Text('You may also like', style: Theme.of(context).textTheme.titleLarge), const SizedBox(height: 16),
       ])),
       SizedBox(
-        height: 325,
+        height: 350,
         child: ListView.separated(
           padding: const EdgeInsets.symmetric(horizontal: 24),
           scrollDirection: Axis.horizontal,
